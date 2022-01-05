@@ -1,0 +1,41 @@
+{
+  "name": "form-design",
+  "version": "0.1.0",
+  "description": "form-design-description",
+  "keyword": "表单设计",
+  "author": "chijh",
+  "private": false,
+  "main": "lib/CustomForm.umd.min.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "build-lib": "vue-cli-service build --target lib --name CustomForm --dest lib ./src/index.js"
+  },
+  "dependencies": {
+    "compressorjs": "^1.0.6",
+    "core-js": "^3.6.5",
+    "element-ui": "^2.13.2",
+    "quill": "^1.3.7",
+    "vue": "^2.6.12",
+    "vue-quill-editor": "^3.0.6",
+    "vue-ref": "^2.0.0",
+    "vue-router": "^3.4.8",
+    "vuedraggable": "^2.24.0",
+    "vuex": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.9.0",
+    "@vue/cli-plugin-babel": "~4.4.0",
+    "@vue/cli-plugin-eslint": "~4.4.0",
+    "@vue/cli-service": "~4.4.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "babel-plugin-component": "^1.1.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.2",
+    "vue-cli-plugin-element": "^1.0.1",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
